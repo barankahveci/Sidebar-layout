@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body,html{
+    height: 100%;
+    width: 100%;
+    
+}
+.container{
+    display: flex;
+}
+aside .side-box{
+    width: 200px;
+    height: 100vh;
+    background: rgb(73, 73, 185);
+}
+.side-box .title{
+    padding: 30px;
+    text-align: center;
+    color: whitesmoke;
+}
+
+.title span{
+    cursor: pointer;
+    color: black;
+    transition: color 0.5s;
+
+}
+.title span:hover{
+    color: white;
+}
+.title h1{
+    cursor: pointer;
+    width: 120px;
+    transition: color 0.5s;
+}
+.title h1:hover{
+    color: black;
+}
+
+
+.side-list ul{
+    list-style: none;
+    color: white;
+}
+.side-list ul li{
+    border-bottom: 1px solid black;
+    padding: 15px;
+
+
+}
+.side-list ul li i{
+    padding: 0 5px 0 0;
+    font-size: 15px;
+
+}
+
+.side-list ul li a{
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    transition: color 0.5s ease;
+    
+    
+}
+.side-list ul li a:hover{
+    color: black;
+}
+.sosyal{
+    position: absolute;
+    bottom: 20px;
+    left: 30px;
+
+}
+.sosyal a{
+    margin-right: 15px;
+    font-size: 30px;
+    color: white;
+    transition: 0.3s color;
+    
+}
+.sosyal a:hover{
+    color: black;
+}
+.main-box{
+    margin-left: 20px;
+    margin-right: 20px;
+    background: rgba(81, 61, 196, 0.1);
+}
+.main-box header{
+    display: flex;
+    height: 60px;
+    background:rgb(81, 61, 196) ;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.main-box .metin1,.metin2,.metin3,.metin4{
+    margin-top: 120px;
+    text-align: center;
+    letter-spacing: 1px;
+    font-weight: 700;
+}
